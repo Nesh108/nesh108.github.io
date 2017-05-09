@@ -36,7 +36,7 @@ header {
 }
 
 header h1 {
-    background: url('../img/profile-pic.jpg') no-repeat;
+    background: url('../img/profile_pic.jpg') no-repeat;
     width: 120px;
     height: 110px;
     margin: 20px auto 15px auto;
@@ -85,10 +85,10 @@ header h2 {
 }
 
 #extNav {
-    background: #fcfcfc;
+    background: #333;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-top: 1px solid #e6e6e6;
+    border: 2px solid #1992d1;
     padding-bottom: 15px;
 }
 
