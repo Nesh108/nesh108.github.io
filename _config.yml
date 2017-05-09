@@ -1,5 +1,5 @@
 safe: true
 future: false
-pygments: true
+highlighter: rouge
 permalink: /:categories/:year/:month/:title/
 paginate: 8
