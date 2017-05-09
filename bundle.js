@@ -37,8 +37,10 @@ let clouds_generator = require('babylon-voxel-clouds')();
 let textureURL = null // replace that to use a texture
 let brownish = [0.45, 0.36, 0.22]
 let greenish = [0.1, 0.8, 0.2]
+let whiteish = [1, 1, 1]
 noa.registry.registerMaterial('dirt', brownish, textureURL)
 noa.registry.registerMaterial('grass', greenish, textureURL)
+noa.registry.registerMaterial('cloud', whiteish, textureURL)
 
 let CritterCreator = require('babylon-voxel-critter')({
   	// Pass it a copy of the Babylon scene
@@ -61,6 +63,7 @@ CritterCreator.create_mesh_from_image('./textures/rabbit.png', goodRabbitScale, 
 // register block types and their material name
 let dirtID = noa.registry.registerBlock(1, { material: 'dirt' })
 let grassID = noa.registry.registerBlock(2, { material: 'grass' })
+let cloudID = noa.registry.registerBlock(3, { material: 'cloud' })
 
 // add a listener for when the engine requests a new world chunk
 // `data` is an ndarray - see https://github.com/scijs/ndarray
