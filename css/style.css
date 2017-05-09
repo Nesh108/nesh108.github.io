@@ -14,8 +14,7 @@ body {
   font-weight: 300;
   font-size: 12px;
   color: #f5f5f5;
-  background-color: #FFF;
-  background-image: url('../img/zynga-bw.png');
+  background-color: #333;
   background-position: top left;
   background-repeat: repeat;
 }
