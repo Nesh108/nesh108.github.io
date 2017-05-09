@@ -168,7 +168,7 @@ noa.inputs.down.on('alt-fire', function () {
 noa.inputs.bind('alt-fire', 'E')
 
 // each tick, consume any scroll events and use them to zoom camera
-let zoom = 0
+let zoom = 5
 let minZoom = 0.1
 let maxZoom = 10
 
