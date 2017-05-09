@@ -48,11 +48,11 @@
         .done(function() {
 
             // Add all repos
-            for (var i = 0, iLen = arguments.length; i < iLen; i++) {
-                if (arguments[i][1] !== 'success' && arguments[1] !== 'success') {
+            for (var i = 0; i < orgs.length; i++) {
+                if (arguments[orgs.length] !== 'success') {
                     continue;
                 }
-                repos = repos.concat(arguments[i][0]);
+                repos = repos.concat(arguments[i]);
             }
 
             // Filter out unwanted repos
