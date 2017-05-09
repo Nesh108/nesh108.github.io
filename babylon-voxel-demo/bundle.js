@@ -169,6 +169,8 @@ noa.inputs.bind('alt-fire', 'E')
 
 // each tick, consume any scroll events and use them to zoom camera
 let zoom = 5
+noa.rendering.zoomDistance = zoom
+
 let minZoom = 0.1
 let maxZoom = 10
 
