@@ -30,6 +30,17 @@ let skybox = require('babylon-voxel-skybox')({
 // If using Noa-Engine: Tell engine to render it
 noa.rendering.addDynamicMesh(skybox.get_skybox());
 
+// Render snow
+let snow = require('babylon-voxel-snow')({
+	scene: scene,
+	snow_texture: 'textures/snowflake.png',
+	snow_count: 20000,
+	snow_speed: 0.020,
+	snow_rate: 700,
+});
+
+snow.start();
+
 let clouds_generator = require('babylon-voxel-clouds')();
 
 // register some block materials (just colors here)
