@@ -49,7 +49,7 @@
 
             // Add all repos
             for (var i = 0, iLen = arguments.length; i < iLen; i++) {
-                if (arguments[i][1] !== 'success') {
+                if (arguments[i][1] !== 'success' && arguments[1] !== 'success') {
                     continue;
                 }
                 repos = repos.concat(arguments[i][0]);

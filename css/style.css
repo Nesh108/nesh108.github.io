@@ -27,9 +27,9 @@ body {
 }
 
 header {
-    border: 1px solid #333;
+    border: 2px solid #1992d1;
     border-radius: 10px;
-    background: #fff;
+    background: #333;
     text-align: center;
     width: 220px;
     float: left;
@@ -37,9 +37,9 @@ header {
 
 header h1 {
     background: url('../img/profile_pic.jpg') no-repeat;
-    width: 120px;
-    height: 110px;
-    margin: 20px auto 15px auto;
+    width: 160px;
+    height: 160px;
+    margin: 20px auto 10px auto;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -88,7 +88,7 @@ header h2 {
     background: #333;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border: 2px solid #1992d1;
+    border-top: 2px solid #1992d1;
     padding-bottom: 15px;
 }
 
